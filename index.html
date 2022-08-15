@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/icon.js"></script>
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header fixed-top">
+        <a href="#" class="logo"><h1>portfolio.</h1></a>
+        <div class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Service">Service</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header section end -->
+    <!-- Home section starts -->
+    <section id="home" class="container-fluid home">
+        <div class="row align-items-center min-vh-100 min-vw-100">
+            <div class="col ps-md-5 ms-md-5 px-4 p-0 text-center text-md-start">
+                <h2>hello...</h2>
+                <h1>i am <span class="typing-name"></span></h1>
+                <h1>i am <span class="typing-text"></span></h1>
+                <a href="#"><button>about me</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- Home section end -->
+    
+    <!-- About section starts -->
+    <section id="about" class="container about">
+        <div class="heading">about me</div>
+        <div class="row row-cols-md-1 align-items-center justify-content-around">
+            <div class="col-md-4 text-md-left text-center imgstyle" style="height: 300px;">
+                <img src="image/ahmed.png" width="400"  alt="">
+            </div>
+            <div class="col-md-8 text-left info">
+                <h2>my name is ahmed shalaby</h2>
+                <p>I'm an enthusiastic person who lives by learning new skills and experiences, beside my technical interests which are mainly presented in software development, I'm also interested in developing my interpersonal skills.</p>
+
+                <h2>my skills:</h2>
+                <div class="skill-bar">
+                    <h3>hTML5 <span>95%</span></h3>
+                    <div class="bar bar1"><span class="fill"></span></div>
+                </div>
+
+                <div class="skill-bar">
+                    <h3>cSS3 <span>95%</span></h3>
+                    <div class="bar bar2"><span class="fill"></span></div>
+                </div>
+
+                <div class="skill-bar">
+                    <h3>Bootstrap <span>90%</span></h3>
+                    <div class="bar bar3"><span class="fill"></span></div>
+                </div>
+
+                <div class="skill-bar">
+                    <h3>Java Script<span>80%</span></h3>
+                    <div class="bar bar4"><span class="fill"></span></div>
+                </div>
+
+                <div class="skill-bar">
+                    <h3>Jquery<span>85%</span></h3>
+                    <div class="bar bar5"><span class="fill"></span></div>
+                </div>
+
+                <div class="skill-bar">
+                    <h3>pHP<span>75%</span></h3>
+                    <div class="bar bar6"><span class="fill"></span></div>
+                </div>
+
+                <div class="skill-bar">
+                    <h3>mysql<span>80%</span></h3>
+                    <div class="bar bar7"><span class="fill"></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- About section end -->
+    
+
+
+    <!-- javascript links -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+    <script src="js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/main.js"></script>
+    <script>
+        var typed = new Typed('.typing-name', {
+            strings: ['ahmed shalaby'],
+            typeSpeed:120,
+            
+        });
+        var typed = new Typed('.typing-text', {
+            strings: ['a web designer', 'a front-end developer', 'learning pHP'],
+            typeSpeed:120,
+            loop:true
+        });
+    </script>
+</body>
+</html>
